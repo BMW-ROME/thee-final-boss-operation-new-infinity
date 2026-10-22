@@ -30,4 +30,3 @@ Find a buyer-accessible, narrow service that existing tools can deliver; demonst
 
 This is a research and operating repository, not an installed automation stack. No customer outreach, paid generation, deployment, or revenue is claimed.
 
-

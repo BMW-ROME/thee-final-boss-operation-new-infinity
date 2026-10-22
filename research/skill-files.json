@@ -1,0 +1,836 @@
+[
+  {
+    "name": "imagegen",
+    "source": ".system\\imagegen\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "openai-docs",
+    "source": ".system\\openai-docs\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "review-agent",
+    "source": ".system\\review-agent\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "skill-creator",
+    "source": ".system\\skill-creator\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "skill-installer",
+    "source": ".system\\skill-installer\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "engine-readiness",
+    "source": "engine-readiness\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "pipeline-repair",
+    "source": "pipeline-repair\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "appinsights-instrumentation",
+    "source": "appinsights-instrumentation\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "azure-ai",
+    "source": "azure-ai\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "azure-aigateway",
+    "source": "azure-aigateway\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "azure-cloud-migrate",
+    "source": "azure-cloud-migrate\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "azure-compliance",
+    "source": "azure-compliance\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "azure-compute",
+    "source": "azure-compute\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "azure-cost-optimization",
+    "source": "azure-cost-optimization\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "azure-deploy",
+    "source": "azure-deploy\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "azure-diagnostics",
+    "source": "azure-diagnostics\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "azure-enterprise-infra-planner",
+    "source": "azure-enterprise-infra-planner\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "azure-hosted-copilot-sdk",
+    "source": "azure-hosted-copilot-sdk\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "azure-kubernetes",
+    "source": "azure-kubernetes\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "azure-kusto",
+    "source": "azure-kusto\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "azure-messaging",
+    "source": "azure-messaging\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "azure-prepare",
+    "source": "azure-prepare\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "azure-quotas",
+    "source": "azure-quotas\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "azure-rbac",
+    "source": "azure-rbac\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "azure-resource-lookup",
+    "source": "azure-resource-lookup\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "azure-resource-visualizer",
+    "source": "azure-resource-visualizer\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "azure-storage",
+    "source": "azure-storage\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "azure-upgrade",
+    "source": "azure-upgrade\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "azure-validate",
+    "source": "azure-validate\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "Chart‑to‑Code Analyst",
+    "source": "Chart‑to‑Code Analyst\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "Cost & Latency Optimizer",
+    "source": "Cost & Latency Optimizer\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "Debug & Log Investigator",
+    "source": "Debug & Log Investigator\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "entra-app-registration",
+    "source": "entra-app-registration\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "Expert Python Coder",
+    "source": "Expert Python Coder\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "hf-cli",
+    "source": "hf-cli\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "Local LLM Orchestrator",
+    "source": "Local LLM Orchestrator\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "MCP & Skills Architect",
+    "source": "MCP & Skills Architect\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "microsoft-foundry",
+    "source": "microsoft-foundry\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "deploy-model",
+    "source": "microsoft-foundry\\models\\deploy-model\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "capacity",
+    "source": "microsoft-foundry\\models\\deploy-model\\capacity\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "customize",
+    "source": "microsoft-foundry\\models\\deploy-model\\customize\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "preset",
+    "source": "microsoft-foundry\\models\\deploy-model\\preset\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "Repo Surgeon",
+    "source": "Repo Surgeon\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "Trading System Auditor",
+    "source": "Trading System Auditor\\SKILL.MD",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "Windows Ops Helper",
+    "source": "Windows Ops Helper\\SKILL.MD",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "YouTube Engine Operator",
+    "source": "YouTube Engine Operator\\SKILL.md",
+    "scope": "skills",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "attack-path-analysis",
+    "source": "openai-api-curated\\codex-security\\1e285826\\skills\\attack-path-analysis\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "deep-security-scan",
+    "source": "openai-api-curated\\codex-security\\1e285826\\skills\\deep-security-scan\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "define-security-policy",
+    "source": "openai-api-curated\\codex-security\\1e285826\\skills\\define-security-policy\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "finding-discovery",
+    "source": "openai-api-curated\\codex-security\\1e285826\\skills\\finding-discovery\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "fix-finding",
+    "source": "openai-api-curated\\codex-security\\1e285826\\skills\\fix-finding\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "propose-security-hardening",
+    "source": "openai-api-curated\\codex-security\\1e285826\\skills\\propose-security-hardening\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "security-diff-scan",
+    "source": "openai-api-curated\\codex-security\\1e285826\\skills\\security-diff-scan\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "security-scan",
+    "source": "openai-api-curated\\codex-security\\1e285826\\skills\\security-scan\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "threat-model",
+    "source": "openai-api-curated\\codex-security\\1e285826\\skills\\threat-model\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "track-findings",
+    "source": "openai-api-curated\\codex-security\\1e285826\\skills\\track-findings\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "triage-finding",
+    "source": "openai-api-curated\\codex-security\\1e285826\\skills\\triage-finding\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "validation",
+    "source": "openai-api-curated\\codex-security\\1e285826\\skills\\validation\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "verify-fix",
+    "source": "openai-api-curated\\codex-security\\1e285826\\skills\\verify-fix\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "vulnerability-writeup",
+    "source": "openai-api-curated\\codex-security\\1e285826\\skills\\vulnerability-writeup\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "computer-use",
+    "source": "openai-bundled\\computer-use\\26.1007.21434\\skills\\computer-use\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "visualize",
+    "source": "openai-bundled\\visualize\\1.0.49\\skills\\visualize\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "adobe-batch-edit-photos",
+    "source": "openai-curated-remote\\app-69312da8e4dc81919370cb86fd172b6c\\10.0.0\\skills\\adobe-batch-edit-photos\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "adobe-create-mockups",
+    "source": "openai-curated-remote\\app-69312da8e4dc81919370cb86fd172b6c\\10.0.0\\skills\\adobe-create-mockups\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "adobe-create-social-variations",
+    "source": "openai-curated-remote\\app-69312da8e4dc81919370cb86fd172b6c\\10.0.0\\skills\\adobe-create-social-variations\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "adobe-design-from-template",
+    "source": "openai-curated-remote\\app-69312da8e4dc81919370cb86fd172b6c\\10.0.0\\skills\\adobe-design-from-template\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "adobe-edit-quick-cut",
+    "source": "openai-curated-remote\\app-69312da8e4dc81919370cb86fd172b6c\\10.0.0\\skills\\adobe-edit-quick-cut\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "adobe-fonts",
+    "source": "openai-curated-remote\\app-69312da8e4dc81919370cb86fd172b6c\\10.0.0\\skills\\adobe-fonts\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "adobe-retouch-portraits",
+    "source": "openai-curated-remote\\app-69312da8e4dc81919370cb86fd172b6c\\10.0.0\\skills\\adobe-retouch-portraits\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "higgsfield",
+    "source": "openai-curated-remote\\app-6a3293e129088191abf0875820e839da\\2.2.1\\skills\\higgsfield\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "website-builder",
+    "source": "openai-curated-remote\\app-6a3293e129088191abf0875820e839da\\2.2.1\\skills\\website-builder\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "ios-app-intents",
+    "source": "openai-curated-remote\\build-ios-apps\\0.1.2\\skills\\ios-app-intents\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "ios-debugger-agent",
+    "source": "openai-curated-remote\\build-ios-apps\\0.1.2\\skills\\ios-debugger-agent\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "ios-ettrace-performance",
+    "source": "openai-curated-remote\\build-ios-apps\\0.1.2\\skills\\ios-ettrace-performance\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "ios-memgraph-leaks",
+    "source": "openai-curated-remote\\build-ios-apps\\0.1.2\\skills\\ios-memgraph-leaks\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "ios-simulator-browser",
+    "source": "openai-curated-remote\\build-ios-apps\\0.1.2\\skills\\ios-simulator-browser\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "swiftui-liquid-glass",
+    "source": "openai-curated-remote\\build-ios-apps\\0.1.2\\skills\\swiftui-liquid-glass\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "swiftui-performance-audit",
+    "source": "openai-curated-remote\\build-ios-apps\\0.1.2\\skills\\swiftui-performance-audit\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "swiftui-ui-patterns",
+    "source": "openai-curated-remote\\build-ios-apps\\0.1.2\\skills\\swiftui-ui-patterns\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "swiftui-view-refactor",
+    "source": "openai-curated-remote\\build-ios-apps\\0.1.2\\skills\\swiftui-view-refactor\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "analyze-data-quality",
+    "source": "openai-curated-remote\\data-analytics\\1.0.11\\skills\\analyze-data-quality\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "build-dashboard",
+    "source": "openai-curated-remote\\data-analytics\\1.0.11\\skills\\build-dashboard\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "build-report",
+    "source": "openai-curated-remote\\data-analytics\\1.0.11\\skills\\build-report\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "convert-to-doc",
+    "source": "openai-curated-remote\\data-analytics\\1.0.11\\skills\\convert-to-doc\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "convert-to-slides",
+    "source": "openai-curated-remote\\data-analytics\\1.0.11\\skills\\convert-to-slides\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "create-data-context",
+    "source": "openai-curated-remote\\data-analytics\\1.0.11\\skills\\create-data-context\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "design-kpis",
+    "source": "openai-curated-remote\\data-analytics\\1.0.11\\skills\\design-kpis\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "gather-business-context",
+    "source": "openai-curated-remote\\data-analytics\\1.0.11\\skills\\gather-business-context\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "index",
+    "source": "openai-curated-remote\\data-analytics\\1.0.11\\skills\\index\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "jupyter-notebooks",
+    "source": "openai-curated-remote\\data-analytics\\1.0.11\\skills\\jupyter-notebooks\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "kpi-reporting",
+    "source": "openai-curated-remote\\data-analytics\\1.0.11\\skills\\kpi-reporting\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "market-sizing",
+    "source": "openai-curated-remote\\data-analytics\\1.0.11\\skills\\market-sizing\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "metric-diagnostics",
+    "source": "openai-curated-remote\\data-analytics\\1.0.11\\skills\\metric-diagnostics\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "product-business-analysis",
+    "source": "openai-curated-remote\\data-analytics\\1.0.11\\skills\\product-business-analysis\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "publish-artifact-to-sites",
+    "source": "openai-curated-remote\\data-analytics\\1.0.11\\skills\\publish-artifact-to-sites\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "report-to-pdf",
+    "source": "openai-curated-remote\\data-analytics\\1.0.11\\skills\\report-to-pdf\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "schedule-refresh-jobs",
+    "source": "openai-curated-remote\\data-analytics\\1.0.11\\skills\\schedule-refresh-jobs\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "share-artifact-summary",
+    "source": "openai-curated-remote\\data-analytics\\1.0.11\\skills\\share-artifact-summary\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "validate-data",
+    "source": "openai-curated-remote\\data-analytics\\1.0.11\\skills\\validate-data\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "visualize-data",
+    "source": "openai-curated-remote\\data-analytics\\1.0.11\\skills\\visualize-data\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "agents",
+    "source": "openai-curated-remote\\openai-developers\\1.3.6\\skills\\agents\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "devday-guide",
+    "source": "openai-curated-remote\\openai-developers\\1.3.6\\skills\\devday-guide\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "openai-api-troubleshooting",
+    "source": "openai-curated-remote\\openai-developers\\1.3.6\\skills\\openai-api-troubleshooting\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "openai-platform-api-key",
+    "source": "openai-curated-remote\\openai-developers\\1.3.6\\skills\\openai-platform-api-key\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "artifact-template-analytics-dashboard",
+    "source": "openai-curated-remote\\openai-templates\\0.1.1\\skills\\artifact-template-analytics-dashboard\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "artifact-template-business-review",
+    "source": "openai-curated-remote\\openai-templates\\0.1.1\\skills\\artifact-template-business-review\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "artifact-template-design-report",
+    "source": "openai-curated-remote\\openai-templates\\0.1.1\\skills\\artifact-template-design-report\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "artifact-template-experiment-analysis",
+    "source": "openai-curated-remote\\openai-templates\\0.1.1\\skills\\artifact-template-experiment-analysis\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "artifact-template-financial-budget",
+    "source": "openai-curated-remote\\openai-templates\\0.1.1\\skills\\artifact-template-financial-budget\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "artifact-template-investment-committee-memo",
+    "source": "openai-curated-remote\\openai-templates\\0.1.1\\skills\\artifact-template-investment-committee-memo\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "artifact-template-legal-memorandum",
+    "source": "openai-curated-remote\\openai-templates\\0.1.1\\skills\\artifact-template-legal-memorandum\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "artifact-template-market-trends-report",
+    "source": "openai-curated-remote\\openai-templates\\0.1.1\\skills\\artifact-template-market-trends-report\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "artifact-template-minimal-letterhead",
+    "source": "openai-curated-remote\\openai-templates\\0.1.1\\skills\\artifact-template-minimal-letterhead\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "artifact-template-operating-calendar",
+    "source": "openai-curated-remote\\openai-templates\\0.1.1\\skills\\artifact-template-operating-calendar\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "artifact-template-operating-review",
+    "source": "openai-curated-remote\\openai-templates\\0.1.1\\skills\\artifact-template-operating-review\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "artifact-template-project-kickoff",
+    "source": "openai-curated-remote\\openai-templates\\0.1.1\\skills\\artifact-template-project-kickoff\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "artifact-template-project-tracker",
+    "source": "openai-curated-remote\\openai-templates\\0.1.1\\skills\\artifact-template-project-tracker\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "artifact-template-sales-pipeline",
+    "source": "openai-curated-remote\\openai-templates\\0.1.1\\skills\\artifact-template-sales-pipeline\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "artifact-template-simple-dark-mode",
+    "source": "openai-curated-remote\\openai-templates\\0.1.1\\skills\\artifact-template-simple-dark-mode\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "artifact-template-simple-light-mode",
+    "source": "openai-curated-remote\\openai-templates\\0.1.1\\skills\\artifact-template-simple-light-mode\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "artifact-template-strategy-memorandum",
+    "source": "openai-curated-remote\\openai-templates\\0.1.1\\skills\\artifact-template-strategy-memorandum\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "artifact-template-system-design",
+    "source": "openai-curated-remote\\openai-templates\\0.1.1\\skills\\artifact-template-system-design\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "artifact-template-team-alignment",
+    "source": "openai-curated-remote\\openai-templates\\0.1.1\\skills\\artifact-template-team-alignment\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "artifact-template-three-statement-forecast",
+    "source": "openai-curated-remote\\openai-templates\\0.1.1\\skills\\artifact-template-three-statement-forecast\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "plugin-management",
+    "source": "openai-curated-remote\\plugin-management\\0.1.0\\skills\\plugin-management\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "sites",
+    "source": "openai-curated-remote\\sites\\1.1.1\\skills\\sites\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "sites-remix",
+    "source": "openai-curated-remote\\sites\\1.1.1\\skills\\sites-remix\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "supabase",
+    "source": "openai-curated-remote\\supabase\\1.0.0\\skills\\supabase\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "supabase-postgres-best-practices",
+    "source": "openai-curated-remote\\supabase\\1.0.0\\skills\\supabase-postgres-best-practices\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "create-pet",
+    "source": "openai-curated-remote\\work-pets\\0.1.6\\skills\\create-pet\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "pets",
+    "source": "openai-curated-remote\\work-pets\\0.1.6\\skills\\pets\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "update-pet",
+    "source": "openai-curated-remote\\work-pets\\0.1.6\\skills\\update-pet\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "yaps-transcription",
+    "source": "openai-curated-remote\\yaps-transcription\\0.1.11\\skills\\yaps-transcription\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "documents",
+    "source": "openai-primary-runtime\\documents\\26.1015.12040\\skills\\documents\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "pdf",
+    "source": "openai-primary-runtime\\pdf\\26.1015.12040\\skills\\pdf\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "presentations",
+    "source": "openai-primary-runtime\\presentations\\26.1015.12040\\skills\\presentations\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "excel-live-control",
+    "source": "openai-primary-runtime\\spreadsheets\\26.1015.12040\\skills\\excel-live-control\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "spreadsheets",
+    "source": "openai-primary-runtime\\spreadsheets\\26.1015.12040\\skills\\spreadsheets\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  },
+  {
+    "name": "template-creator",
+    "source": "openai-primary-runtime\\template-creator\\26.1015.12040\\skills\\template-creator\\SKILL.md",
+    "scope": "cache",
+    "state": "file-present; activation and runtime not verified"
+  }
+]
