@@ -1,0 +1,108 @@
+{
+  "name": "FB-003 Local API Integration Demonstration (MOCK ONLY)",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "fb003-demo",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "fb003-webhook",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        240,
+        300
+      ],
+      "webhookId": "fb003-demo"
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "const entry = $input.first().json;\nconst payload = entry.body && typeof entry.body === 'object' && !Array.isArray(entry.body) ? entry.body : entry;\nconst id = typeof payload.request_id === 'string' ? payload.request_id.trim() : '';\nconst email = typeof payload.email === 'string' ? payload.email.trim() : '';\nconst intent = typeof payload.intent === 'string' ? payload.intent.trim() : '';\nconst errors = [];\nif (!/^[A-Za-z0-9_-]{3,64}$/.test(id)) errors.push('request_id must be 3-64 letters, digits, underscores or hyphens');\nif (!/^[^\\\\s@]+@[^\\\\s@]+\\\\.[^\\\\s@]+$/.test(email) || email.length > 254) errors.push('email must be a valid address');\nif (!['support', 'sales', 'other'].includes(intent)) errors.push('intent must be support, sales, or other');\nreturn [{json:{request_id:id || null, valid:errors.length===0, errors, intent:errors.length===0?intent:null}}];"
+      },
+      "id": "fb003-validate",
+      "name": "Validate Payload",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        460,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "const v = $input.first().json;\nconst status = v.valid ? 200 : 400;\nreturn [{json:{statusCode:status, body: v.valid ? {ok:true, request_id:v.request_id, provider:'local-mock', result:{route:v.intent==='support'?'helpdesk':v.intent==='sales'?'sales-queue':'general', accepted:true}} : {ok:false, request_id:v.request_id, errors:v.errors}}}];"
+      },
+      "id": "fb003-provider",
+      "name": "Mock API Result",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        680,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ JSON.stringify($json.body) }}",
+        "options": {
+          "responseCode": "={{ $json.statusCode }}"
+        }
+      },
+      "id": "fb003-respond",
+      "name": "Respond to Webhook",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        900,
+        300
+      ]
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Validate Payload",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Validate Payload": {
+      "main": [
+        [
+          {
+            "node": "Mock API Result",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Mock API Result": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "active": false,
+  "pinData": {},
+  "tags": []
+}
