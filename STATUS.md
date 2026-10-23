@@ -1,14 +1,20 @@
-# Status
+# Current status
+FB-001/FB-002 implementation packet prepared on fb-001-002-execution. Original mission retained.
+Revenue goal remains active: zero collected revenue, zero customer acceptances, zero fully qualified buyers.
+Owner confirms U.S. Square payments and transfers already work; account not independently inspected.
 
-Prepared 2026-10-22.
+## Commercial
+Ten public marketplace listings plus three direct leads researched. Primary next qualification: C11 n8n paid QA posting; current hiring, identity, budget and deadline remain unverified.
+Ready offer: operations/DIRECT_OFFER.md, USD100 proposed diagnostic. Actual synthetic proof: proof/REPORT.md.
+Freelancer fallback has a documented minimum bidding balance and withdrawal delays. No deposits made.
 
-Completed locally: exact recovered mission, role contracts, tool/skill inventory, integration research, evidence/cost/security controls, proposed first-revenue experiment.
-Private GitHub repository created under BMW-ROME; README written through linked connector. Full content publication and verification are recorded in the publication receipt.
-Not completed: integration installations, paid pilot, outreach, revenue, production deployment.
+## Local
+Transactional SQLite prototype and ten role contracts implemented. Engine 10 tests pass.
+Local safety tests 17; bounded live inference blocked by RAM, zero model trials.
+n8n host route verified; synthetic workflow corrected 8/8 in isolated temporary database. No production deployment.
+Wildcard listeners require firewall/bind review before client data. Reachability from outside is unverified.
 
-Next owner inputs for a revenue experiment: reachable buyer/channel, authorized sample/input, available delivery time, chosen price and any paid-service budget. These are not needed to publish this research repository.
-Earlier assistant plan wording remains unavailable; provide an export only if it must replace the verbatim recovered user mission.
-
-No new integration or paid subscription was installed.
-
+## Next gate
+Owner reviews one qualification message, confirms sending account and delivery availability, and explicitly authorizes that message. No invoice/payment request is included.
+See checkpoints/CONTINUE.md, evidence/VALIDATION.md and evidence/DISCOVERIES.jsonl.
 

@@ -1,0 +1,118 @@
+{
+  "observed_at": "2026-10-23T02:52:44.068Z",
+  "n8n": "2.41.6",
+  "status": "success",
+  "scope": "synthetic isolated temporary SQLite database; JavaScript Code node",
+  "cases": [
+    {
+      "case": "valid",
+      "passed": true,
+      "expected_error": false,
+      "actual_error": false,
+      "expected": [
+        {
+          "request_id": "A",
+          "total": 36
+        }
+      ],
+      "actual": [
+        {
+          "request_id": "A",
+          "total": 36
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "case": "zero_is_valid",
+      "passed": true,
+      "expected_error": false,
+      "actual_error": false,
+      "expected": [
+        {
+          "request_id": "Z",
+          "total": 0
+        }
+      ],
+      "actual": [
+        {
+          "request_id": "Z",
+          "total": 0
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "case": "two_distinct_requests",
+      "passed": true,
+      "expected_error": false,
+      "actual_error": false,
+      "expected": [
+        {
+          "request_id": "A",
+          "total": 36
+        },
+        {
+          "request_id": "B",
+          "total": 10
+        }
+      ],
+      "actual": [
+        {
+          "request_id": "A",
+          "total": 36
+        },
+        {
+          "request_id": "B",
+          "total": 10
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "case": "duplicate_request",
+      "passed": true,
+      "expected_error": true,
+      "actual_error": true,
+      "expected": null,
+      "actual": null,
+      "synthetic": true
+    },
+    {
+      "case": "missing_units",
+      "passed": true,
+      "expected_error": true,
+      "actual_error": true,
+      "expected": null,
+      "actual": null,
+      "synthetic": true
+    },
+    {
+      "case": "negative_units",
+      "passed": true,
+      "expected_error": true,
+      "actual_error": true,
+      "expected": null,
+      "actual": null,
+      "synthetic": true
+    },
+    {
+      "case": "numeric_string",
+      "passed": true,
+      "expected_error": true,
+      "actual_error": true,
+      "expected": null,
+      "actual": null,
+      "synthetic": true
+    },
+    {
+      "case": "empty_id",
+      "passed": true,
+      "expected_error": true,
+      "actual_error": true,
+      "expected": null,
+      "actual": null,
+      "synthetic": true
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "enum": [
+        "1"
+      ]
+    },
+    "event_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "task_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "event": {
+      "type": "string",
+      "enum": [
+        "submitted",
+        "claimed",
+        "recovered",
+        "checkpoint",
+        "succeed",
+        "retry",
+        "fail",
+        "cancel",
+        "retry_exhausted"
+      ]
+    },
+    "previous_state": {
+      "type": "string",
+      "enum": [
+        "none",
+        "pending",
+        "running",
+        "succeeded",
+        "failed",
+        "cancelled"
+      ]
+    },
+    "state": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "running",
+        "succeeded",
+        "failed",
+        "cancelled"
+      ]
+    },
+    "timestamp": {
+      "type": "number",
+      "minimum": 0
+    },
+    "responsible_agent": {
+      "type": "string",
+      "minLength": 1
+    },
+    "environment": {
+      "type": "string",
+      "minLength": 1
+    },
+    "checkpoint": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "schema_version",
+    "event_id",
+    "task_id",
+    "event",
+    "previous_state",
+    "state",
+    "timestamp",
+    "responsible_agent",
+    "environment",
+    "checkpoint"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:final-boss:event:v1"
+}

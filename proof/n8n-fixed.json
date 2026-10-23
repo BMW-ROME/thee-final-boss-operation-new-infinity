@@ -1,0 +1,47 @@
+{
+  "id": "fb-proof-fixed",
+  "name": "FB synthetic contract proof fixed",
+  "active": false,
+  "nodes": [
+    {
+      "id": "manual",
+      "name": "Manual",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "parameters": {}
+    },
+    {
+      "id": "checks",
+      "name": "Contract checks",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        240,
+        0
+      ],
+      "parameters": {
+        "jsCode": "const fixtures = [\n {name:'valid', input:[{request_id:'A', units:3, unit_price:12}], expected:[{request_id:'A', total:36}]},\n {name:'zero_is_valid',input:[{request_id:'Z',units:0,unit_price:12}],expected:[{request_id:'Z',total:0}]},\n {name:'two_distinct_requests',input:[{request_id:'A',units:3,unit_price:12},{request_id:'B',units:2,unit_price:5}],expected:[{request_id:'A',total:36},{request_id:'B',total:10}]},\n {name:'duplicate_request',input:[{request_id:'A',units:3,unit_price:12},{request_id:'A',units:3,unit_price:12}],error:true},\n {name:'missing_units',input:[{request_id:'A',unit_price:12}],error:true},\n {name:'negative_units',input:[{request_id:'A',units:-1,unit_price:12}],error:true},\n {name:'numeric_string',input:[{request_id:'A',units:'3',unit_price:12}],error:true},\n {name:'empty_id',input:[{request_id:'',units:3,unit_price:12}],error:true}\n];\nfunction processRows(rows) {\n const seen=new Set(); return rows.map(row=>{\n if(typeof row.request_id!=='string'||!row.request_id.trim()||seen.has(row.request_id)||!Number.isInteger(row.units)||row.units<0||!Number.isFinite(row.unit_price)||row.unit_price<0) throw new Error('invalid input');\n seen.add(row.request_id);return {request_id:row.request_id,total:row.units*row.unit_price};\n });\n}\nreturn fixtures.map(f=>{let actual,error=false;try {actual=processRows(f.input);}catch(e){error=true;}\n const pass=f.error===true?error:!error&&JSON.stringify(actual)===JSON.stringify(f.expected);\n return {json:{case:f.name,passed:pass,expected_error:f.error===true,actual_error:error,expected:f.expected??null,actual:actual??null,synthetic:true}};\n});\n"
+      }
+    }
+  ],
+  "connections": {
+    "Manual": {
+      "main": [
+        [
+          {
+            "node": "Contract checks",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}

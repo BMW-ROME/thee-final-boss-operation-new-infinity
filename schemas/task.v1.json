@@ -1,0 +1,224 @@
+{
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "enum": [
+        "1"
+      ]
+    },
+    "task_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "idempotency_key": {
+      "type": "string",
+      "minLength": 1
+    },
+    "action": {
+      "type": "string",
+      "enum": [
+        "offline_artifact"
+      ]
+    },
+    "state": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "running",
+        "succeeded",
+        "failed",
+        "cancelled"
+      ]
+    },
+    "responsible_agent": {
+      "type": "string",
+      "minLength": 1
+    },
+    "environment": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "uri": {
+          "type": "string",
+          "minLength": 1
+        },
+        "observed_at": {
+          "type": "string",
+          "minLength": 1
+        },
+        "method": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "uri",
+        "observed_at",
+        "method"
+      ],
+      "additionalProperties": false
+    },
+    "checkpoint": {
+      "type": "string",
+      "minLength": 1
+    },
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "uri": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "verification": {
+            "type": "string",
+            "enum": [
+              "passed",
+              "failed"
+            ]
+          },
+          "method": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "uri",
+          "sha256",
+          "verification",
+          "method"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "verification": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "passed",
+        "failed"
+      ]
+    },
+    "retry": {
+      "type": "object",
+      "properties": {
+        "max_attempts": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "base_seconds": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 60
+        },
+        "cap_seconds": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 300
+        }
+      },
+      "required": [
+        "max_attempts",
+        "base_seconds",
+        "cap_seconds"
+      ],
+      "additionalProperties": false
+    },
+    "budget": {
+      "type": "object",
+      "properties": {
+        "currency": {
+          "type": "string",
+          "enum": [
+            "USD"
+          ]
+        },
+        "approved_minor": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 0
+        },
+        "spent_minor": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 0
+        }
+      },
+      "required": [
+        "currency",
+        "approved_minor",
+        "spent_minor"
+      ],
+      "additionalProperties": false
+    },
+    "approval": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "not_requested",
+            "approved",
+            "denied"
+          ]
+        },
+        "reference": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "status",
+        "reference"
+      ],
+      "additionalProperties": false
+    },
+    "customer_contact_key": {
+      "type": "string",
+      "enum": [
+        "none"
+      ]
+    },
+    "recovery": {
+      "type": "string",
+      "minLength": 1
+    },
+    "rollback": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "schema_version",
+    "task_id",
+    "idempotency_key",
+    "action",
+    "state",
+    "responsible_agent",
+    "environment",
+    "source",
+    "checkpoint",
+    "artifacts",
+    "verification",
+    "retry",
+    "budget",
+    "approval",
+    "customer_contact_key",
+    "recovery",
+    "rollback"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:final-boss:task:v1"
+}

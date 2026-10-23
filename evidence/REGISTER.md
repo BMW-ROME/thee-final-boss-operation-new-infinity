@@ -15,3 +15,11 @@ Date: 2026-10-22 (America/New_York).
 
 No secret values or customer records were collected for this repository. Catalog files contain capability names/metadata, not credentials.
 
+
+## FB-001/002 execution evidence
+- Commercial: research/commercial/OPPORTUNITIES.md and DIRECT_ROUTE.md (public requests, not qualified buyers).
+- Payment: operations/SQUARE_PAYMENT_PATH.md (owner attestation plus official terms, no transaction).
+- Local: evidence/local/RECEIPT.md and benchmark-result.json (runtime checks; zero inference).
+- Verification: evidence/VALIDATION.md, ENGINE_REVIEW.md, LOCAL_REVIEW.md.
+- Actual synthetic n8n proof: proof/REPORT.md and result-fixed.json.
+- Discovery ledger: evidence/DISCOVERIES.jsonl. Costs: operations/FB-001-002-COST-LEDGER.json.

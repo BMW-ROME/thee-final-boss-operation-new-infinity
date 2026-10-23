@@ -12,3 +12,8 @@ private/
 customer-data/
 work/
 
+
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*

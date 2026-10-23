@@ -14,3 +14,5 @@ Agent role files are responsibility contracts, not evidence of deployed or spawn
 Do not launch parallel agents unless explicitly requested by the user or a governing instruction.
 Stop at the agreed deliverable. Record blockers and the smallest next action.
 
+
+Apply [GOAL_RECOGNITION.md](GOAL_RECOGNITION.md) after materially informative results and work units. Record discovery events in evidence/DISCOVERIES.jsonl with source, significance, recommended change and completion class. Immediately surface material priority/risk/decision discoveries. Never equate a completed work packet with verified revenue.
