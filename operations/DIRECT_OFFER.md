@@ -1,16 +1,18 @@
-# Ready-to-review direct offer — C11
+# Ready-to-review direct offer â€” C11
 
 Status: unsent. Recipient: cobasuyi via the DM invited in https://community.n8n.io/t/looking-for-n8n-ai-automation-specialist-paid-qa-stress-testing/319256 . No public promotion or off-platform contact harvesting. Proposed scope and price are new; buyer acceptance is pending.
 
-## Message
+## Initial qualification message
 
-Hello — is your one-agent paid QA trial still open?
+Hello — is your paid one-agent QA trial still open, and would a focused n8n workflow/API-contract diagnostic fit what you need?
 
-I can offer a USD 100 diagnostic for one sanitized workflow or API-tool path: up to 15 nodes and two mocked integrations, with eight agreed normal/failure cases. The deliverable is a reproducible pass/fail report, severity-ranked findings and a separately scoped repair recommendation. I propose two business days after scope and sample inputs are agreed, with one correction to the report included.
+I have a self-initiated example executed in n8n: eight synthetic input/output checks, with the deliberately broken version passing one and the corrected version passing all eight. I can share the short report. This is not a client case study, and I do not claim production Vapi/Twilio/ElevenLabs experience.
 
-My demonstrated work is a local n8n/Ollama connectivity check and synthetic reliability tests covering duplicate requests, interruption recovery and artifact integrity. These are self-initiated examples, not client case studies. I do not claim production delivery experience with Vapi, Twilio or ElevenLabs. This offer covers the workflow/API contract layer; live voice quality, production load testing and paid provider calls would require a separate agreed scope.
+If that scope is useful, could you share the trial budget, deadline and a redacted outline of the first workflow? Please exclude credentials and customer records. I would confirm scope, price and delivery availability before any commitment.
 
-Could you share one redacted workflow outline, an expected input/output pair, and the trial deadline? Please exclude credentials and customer records. If the fit is right, we can agree acceptance and refund terms, then use a Square invoice for the diagnostic. I work asynchronously; scheduling and location details can be confirmed before engagement.
+## Conditional offer held for qualification
+
+Proposed USD100 diagnostic: one sanitized workflow/tool path, up to 15 nodes and two mocked integrations, eight agreed cases, reproducible report and severity-ranked findings. Repairs, live voice calls and production load testing are excluded and require separate scope. Target two business days only after the owner confirms availability and the buyer agrees inputs and acceptance/refund terms. This is a proposal, not an accepted price or promised delivery.
 
 ## Before the owner authorizes sending
 

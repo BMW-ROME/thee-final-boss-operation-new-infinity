@@ -23,3 +23,6 @@ https://community.n8n.io/t/jobs-category-guidelines-posting-and-applying/941 say
 ## Evidence quality
 
 The public page has many applicant replies. Their claimed experience and prices are not buyer requirements, budgets, or our credentials. No portfolio, personal location or years of experience is borrowed from replies. Current recruitment and buyer identity must be confirmed before taking paid work.
+
+## Revalidation, October 22 Eastern / October 23 UTC
+The public page remained readable. The inspected portion contains multiple similar workflow/API QA proposals, including synthetic-demo offers. It does not establish renewed buyer availability, buyer budget, or accepted pricing. Applicant claims were not independently verified and are not market-clearing prices. Evidence weakens any assumption that our narrow offer is distinctive or that this is a proven shortest route. Keep C11 as a conditional qualification lead only; do not build more tailored proof before a response. Initial draft now asks availability and scope before quoting. Original source URL above; no customer contact occurred.
