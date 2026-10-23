@@ -30,3 +30,7 @@ Find a buyer-accessible, narrow service that existing tools can deliver; demonst
 
 This is a research and operating repository, not an installed automation stack. No customer outreach, paid generation, deployment, or revenue is claimed.
 
+
+## FB-001 + FB-002 execution packet
+
+The [master handoff](checkpoints/MASTER_HANDOFF_FB-001_FB-002.md) supplies the executive mission and two-track execution scope. See [mission](docs/MISSION.md), [architecture](docs/ARCHITECTURE.md), [continuation checkpoint](checkpoints/CONTINUE.md), and [current status](STATUS.md). The original mission above is unchanged.

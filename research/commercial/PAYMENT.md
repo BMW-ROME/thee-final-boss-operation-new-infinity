@@ -1,0 +1,13 @@
+# Payment and cost gate — observed 2026-10-22
+
+Primary sources: [Freelancer fees](https://www.freelancer.com/feesandcharges), [withdrawal support](https://www.freelancer.com/support/payments/how-to-withdraw-funds), [user agreement](https://www.freelancer.com/about/terms?redirect-times=1&w=f). Read through public web retrieval; no account-specific verification performed.
+
+Freelancer's published schedule requires USD 20 unreserved balance before bidding; risk-based requirements can be higher. Free membership initially provides six bids per month. Fixed-price freelancer fees are 10% or USD 5, whichever is higher. Hourly fees are 10%. Check the acceptance screen before accepting: a project fee can arise before buyer payment. Bid upgrades are optional and not authorized.
+
+Published minimum withdrawal is USD 50 after fees. Common withdrawal methods cost USD 1; international wire USD 25. Availability depends on country/account. First withdrawal requires 15-day clearing according to support; identity verification and processing time can add delays. These terms prevent a credible promise of bank cash tonight for a new account. Keep communication/payment on-platform for platform-origin leads; do not evade fees.
+
+Workflow: owner authorizes a specific bid → verify current terms and sufficient existing balance → agree bounded scope → buyer funds milestone → verify funding inside platform → deliver and get acceptance → buyer releases milestone → reconcile fee/net balance → satisfy withdrawal/KYC gates → verify settled receipt. Award, funded escrow and released platform balance are separate from settled bank revenue. No steps have been executed.
+
+For C01, suggested INR 7,000 is a proposed price, not buyer acceptance. At a 10% project fee, platform net is INR 6,300 before FX, withdrawal and taxes; use max(10%, USD 5 equivalent) in actual fee calculation. Labor estimate is USD 50–75 (2–3h at USD 25); acquire current FX and account fee quote before deciding margin. Do not silently convert INR into USD. Acquisition/revisions can erase margin. Incremental paid delivery-service target is USD 0; local electricity and existing subscriptions are not literally free. Cash spent this research run: no new paid-service calls, purchases or deposits initiated.
+
+If the owner has no funded Freelancer account, the default zero incremental spending cap blocks bidding. This is an owner/account gate, not permission to deposit. The agency alternative uses Wise under buyer-stated terms, but transfer costs, sender legitimacy, operator eligibility and contractual payment protections remain unverified. Its revised compensation depends on the agency first collecting client payment.

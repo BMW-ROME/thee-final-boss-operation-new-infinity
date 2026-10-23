@@ -1,0 +1,12 @@
+{
+  "observed_at": "2026-10-22T14:06:07.311112+00:00",
+  "paid_calls": 0,
+  "scope": "synthetic extraction only; not general intelligence or endurance",
+  "trials": [],
+  "memory_before": {
+    "total_bytes": 14861852672,
+    "free_bytes": 2199257088,
+    "load_percent": 85
+  },
+  "status": "blocked_insufficient_memory_or_no_eligible_model"
+}
