@@ -1,5 +1,9 @@
 # Evidence register
 
+## FB-004 (2026-10-23)
+
+See [FB004-VALIDATION.md](FB004-VALIDATION.md): historical user-observed success, current GitHub state, agent-run 29+3 offline passes, live route 404 and pending HTTP negative acceptance. No inference from offline statusCode to a live HTTP 400. Next gates and zero paid-service cost are recorded in [work packet](../operations/FB-004-WORK-PACKET.md).
+
 Date: 2026-10-22 (America/New_York).
 
 | ID | Observation | Method | Limits |

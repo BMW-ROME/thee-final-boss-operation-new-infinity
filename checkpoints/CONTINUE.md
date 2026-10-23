@@ -1,5 +1,6 @@
-# Resume FB-001 + FB-002
-Authoritative repo: BMW-ROME/thee-final-boss-operation-new-infinity, branch fb-001-002-execution.
+# Resume FB-004
+Authoritative repo: BMW-ROME/thee-final-boss-operation-new-infinity. FB-001/002 and FB-003 merged into main; FB-004 branch fb-004-negative-input-evidence starts at 31c6dc5.
+Read operations/FB-004-WORK-PACKET.md and evidence/FB004-VALIDATION.md. User-observed FB-003 success is not an agent rerun. Offline checks pass 29+3; local health is 200 but test route is 404. Next technical gate: operator imports/compares updated inactive scratch workflow, arms test listener separately for each probe, records true 400/error results. Do not activate production or repeat infrastructure work to avoid this gate. Commercial qualification below remains the priority and requires owner authorization before sending.
 Read README, AGENTS, GOAL_RECOGNITION, STATUS and evidence/DISCOVERIES.jsonl first.
 
 Completed: original repo/mission/inventory; public lead research; direct offer and Square path; ten role contracts; tested offline SQLite engine; local audit and safe benchmark harness; actual isolated synthetic n8n proof.
