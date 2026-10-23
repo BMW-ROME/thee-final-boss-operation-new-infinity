@@ -1,6 +1,6 @@
 # FB-003: Local n8n Proof of Capability
 
-Status: **workflow JSON authored; n8n import and runtime execution NOT verified**.
+Status: **FB-003 happy path user-observed in local n8n (four green nodes, HTTP 200, reported 106-byte JSON). Not independently rerun.** FB-004 adds offline regression coverage and an HTTP probe; live negative HTTP acceptance remains pending. See [receipt](../evidence/FB004-VALIDATION.md) and [work packet](../operations/FB-004-WORK-PACKET.md). The current export additionally suppresses invalid request IDs and rejects malformed bodies; the historical success does not verify this revision.
 
 ## Purpose
 Showcase webhook intake → bounded input validation → API-style mock routing → structured JSON response using only local n8n Code nodes. No model, account, outside API, or paid cloud dependency.
