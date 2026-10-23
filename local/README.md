@@ -40,4 +40,3 @@ The benchmark uses only Python standard library, synthetic extraction, localhost
 Resume when normal owner-managed workload completion leaves at least model bytes plus 2 GiB free RAM (about 3.80 GiB for the smallest candidate), and no model is loaded. Run the benchmark command above. Review exact accuracy, repeated success and latency before retaining any model role. Do not infer suitability for factual research from this narrow synthetic test. No cloud is needed for these scripts; opportunity discovery/customer/payment activity still needs internet.
 
 Incremental paid API/services: $0. Existing electricity, hardware wear and owner labor were not measured and are not zero. No cloud quota was consumed by inference. Production gates: inference benchmark, actual n8n workflow execution, interruption recovery, concurrent workload safety, reboot restoration, security binding review and customer-data consent remain pending.
-

@@ -11,4 +11,3 @@ If unsuitable, record rejection/constraint and reassess fallback leads. Do not i
 Do not repeat inventory/tests without changes. No spending, outreach, invoice, production imports, model downloads, restarts or cleanup is authorized by this checkpoint.
 Local n8n synthetic scratch remains in /tmp/fb-proof-20261022, isolated user folder/SQLite and broker port 5697 for CLI runs. Existing production config was not modified.
 Future benchmark: first verify enough free RAM (model bytes plus 2GiB), no loaded models and no concurrent inference; retain bounded settings and stop gates. Do not force inference.
-

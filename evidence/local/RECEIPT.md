@@ -1,4 +1,4 @@
-# Local evidence receipt — FB-002
+# Local evidence receipt â€” FB-002
 
 Observation date: 2026-10-22. Method: selected read-only Windows CIM fields, WSL list, Docker version and running-container metadata, n8n version command, n8n-container Node fetch to host Ollama, Windows listener enumeration, Ollama `/api/version`, `/api/tags`, `/api/ps`, Python benchmark resource gate and unit tests. Evidence is sanitized; no environment values, credentials, workflow records or customer data were captured.
 
@@ -15,4 +15,3 @@ Initial restricted-shell CIM/WSL/Docker reads returned access denied. Approved r
 | FB-L007 | Wildcard listeners observed at 11434 and 5678 | observed | External reachability unverified; security review pending |
 
 Paid inference cost: $0; no generation requests were sent. Model portfolio consolidation is deferred until actual benchmark evidence exists. Existing configurations/models/containers remained intact.
-

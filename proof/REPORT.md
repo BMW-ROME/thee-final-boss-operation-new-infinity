@@ -19,4 +19,3 @@ Temporary database remains for inspection; no automatic cleanup or destructive o
 ## Limits
 Eight chosen fixtures, one small Code node: not concurrency/load, voice quality, security certification, external API behavior, or customer acceptance.
 No revenue or hiring outcome. Sharing requires owner approval; do not share the private project repository as a portfolio.
-
